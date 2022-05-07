@@ -1,4 +1,5 @@
-FROM python:3.8.1-slim
+FROM python:3.8-slim-bullseye
+ENV PYTHONUNBUFFERED 1
 EXPOSE 8000
 WORKDIR /app
 COPY . /app

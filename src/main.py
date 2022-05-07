@@ -9,7 +9,6 @@ from pydantic import BaseModel
 
 from transformers import pipeline
 
-
 dictConfig(log_config)
 logger = logging.getLogger("week4")
 
